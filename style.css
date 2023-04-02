@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.cont{
+    height: 100vh;
+    width: 100%;
+    background: #ccc;
+    background-image: url(./images/comp1.jpg);
+    background-size: cover;
+}
+.list{
+    
+     position: absolute;
+     left: 30%;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    font-family: arial, 'Roboto';
+    
+}
+.list a {
+    text-decoration: none;
+    margin: 50px;
+    text-decoration: none;
+    color: white;
+}
+.logo{
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 25px;
+}
+.rbtn{
+    position: absolute;
+    right: 40px;
+    margin-top: 10px;
+    color: white;
+    background-color: red;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor:pointer;
+}
+.login{
+    position: absolute;
+    right: 10%;
+    margin-top: 10px;
+    padding: 8px;
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+    border: none solid;
+    cursor: pointer;
+    
+}
+.header{
+    height: 80px;
+    width: 100%;
+    box-shadow: 0 0 10px 20px rgba(41, 40, 40, 0.25);
+    display: flex;
+    margin: 10px;
+    border-radius: 5px;
+}
+.suv{
+    margin-top: 30px;
+    position: fixed;
+    left: 25%;
+}
+.text{
+    margin-top: 50px;
+    text-align: center;
+}
+.inner{
+    display: flex;
+    font-size: 40px;
+    color: rgb(228, 228, 228);
+}
+h2 ,h1{
+    color: white;
+}
+.comp{
+    position: absolute;
+    left: 22%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.comp1{
+    position: absolute;
+    right: 25%;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.images{
+    width:100%;
+    height: 45vh;
+    display: flex;
+    background-color: #202020;
+    
+   
+}
